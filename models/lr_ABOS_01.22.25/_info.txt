@@ -1,0 +1,15 @@
+-- General Info -- 
+Model: Linear Regression
+Date: 2025-01-22 16:16:45.926486
+Ticker(s): ABOS
+Features: 'Open', 'High', 'Low', 'Close', 'RSI', 'ROC', 'MACD_Line'
+Train Data spans: 2021-07-23 00:00 - 2024-05-08 00:00
+Test Data spans: 2024-05-08 00:00 - 2025-01-21 00:00
+
+-- Metrics --
+
+Hit Ratio: 0.45454545454545453
+Mean Absolute Error: 0.10952348017175542
+Mean Squared Error: 0.019445617995811713
+R-squared: -0.14926397221425414
+Notes: Used daily data for training and testing. Used 80% of the data for training and 20% for testing. Predicted change in price for the next day.

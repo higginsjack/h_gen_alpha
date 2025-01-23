@@ -1,0 +1,15 @@
+-- General Info -- 
+Model: Random Forest Regressor
+Date: 2025-01-22 16:17:02.528599
+Ticker(s): ABOS
+Features: 'Open', 'High', 'Low', 'Close', 'RSI', 'ROC', 'MACD_Line'
+Train Data spans: 2021-07-23 00:00 - 2024-05-08 00:00
+Test Data spans: 2024-05-08 00:00 - 2025-01-21 00:00
+
+-- Metrics --
+
+Hit Ratio: 0.4147727272727273
+Mean Absolute Error: 0.11655397705812193
+Mean Squared Error: 0.022333240526786716
+R-squared: -0.3199266140967849
+Notes: Used daily data for training and testing. Used 80% of the data for training and 20% for testing. Predicted change in price for the next day.
