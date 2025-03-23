@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+data/
+finazon_key.txt
+models/
+old.py

@@ -14,6 +14,9 @@ with open('scripts/finazon_key.txt', 'r') as file:
 def unix_to_datetime(unix):
     return datetime.fromtimestamp(unix)
 def datetime_to_unix(date_str):
+    """
+    Takes in date string: '%m-%d-%Y %H:%M'
+    """
     date_format = '%m-%d-%Y %H:%M'
     dt = datetime.strptime(date_str, date_format)
     unix_timestamp = int(dt.timestamp())
